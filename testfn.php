@@ -22,7 +22,7 @@ class Bmw extends Car {
     $this -> height = $height;
   }
    
-  // Calculates a rectangular tank volume
+  // Calculatess a rectangular tank volume
   public function calcTankVolume()
   {
     return $this -> rib * $this -> rib * $this -> height;
